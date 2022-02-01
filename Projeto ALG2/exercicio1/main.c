@@ -1,13 +1,13 @@
-/*Exercícios de Revisão: Noções básicas de C.
+/*Exercicios de Revisaso: NoÃ§oes basicas de C.
   01/09/2021 - Mariane Bedia de Andrade*/
 
-#include <stdio.h> //Inclui biblioteca de entrada e saída
-#include <stdlib.h> //standard library -  Ela possui funções envolvendo alocação de memória, controle de processos, conversões e outras.
+#include <stdio.h> //Inclui biblioteca de entrada e saida
+#include <stdlib.h> //standard library -  Ela possui funÃ§oes envolvendo alocaÃ§ao de memoria, controle de processos, conversoes e outras.
 
 
 int main()
 {
-    int val1, val2, val3;// definição de variaveis
+    int val1, val2, val3;// definiÃ§ao de variaveis
 
     printf("-------------------------------------\n");
     printf("\t NUMEROS CRESCENTES \n");
