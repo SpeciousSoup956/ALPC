@@ -1,5 +1,5 @@
 /* Caixa de Mercado
-Fun��o: Sistema de um caixa de mercado.
+Função: Sistema de um caixa de mercado.
 Autora: Mariane Bedia de Andrade
 Criado em 02/10/2020*/
 
@@ -10,7 +10,7 @@ Criado em 02/10/2020*/
 
 int main()
 {
-   //Vari�veis
+   //Variaveis
    int opc=0, i;
    float pdt[100], soma=0, vfp, troco=0;
    setlocale(LC_ALL, "Portuguese");
@@ -26,15 +26,15 @@ int main()
        printf("\n (4) Verificar situacao do pagamento");
        printf("\n (5) Zerar conta total e valor pago");
        printf("\n (6) Sair do programa");
-       printf("\n Escolha a op��o desejada:");
+       printf("\n Escolha a opção desejada:");
        scanf("%d",&opc);
        printf("\n ************************************");
 
        switch(opc)
        {
           case 1:
-          printf("\n *Aten��o: O limite � de 100 produtos.");
-          printf("\n *Aten��o: Quando terminar de digitar os valores, digite 0. \n");
+          printf("\n *Atenção: O limite é de 100 produtos.");
+          printf("\n *Atenção: Quando terminar de digitar os valores, digite 0. \n");
           for(i=0; i<=100; i++)
             {
               printf("\n\t Digite o valor do produto %d: R$ ", i); //Dados de entrada
@@ -90,7 +90,7 @@ int main()
             break;
 
           default:
-            printf("\n Op��o Inv�lida!\n");
+            printf("\n Opção Inválida!\n");
             break;
         }
 

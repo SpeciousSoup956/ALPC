@@ -1,5 +1,5 @@
-/* Sistema de Classifica��o de idade
-Fun��o: Classificar idades oferecidas pelo usu�rio.
+/* Sistema de Classificaçao de idade
+Funçao: Classificar idades oferecidas pelo usuario.
 Autora: Mariane Bedia de Andrade
 Criado em 22/09/2020 */
 
@@ -10,19 +10,19 @@ Criado em 22/09/2020 */
 
 int main()
 {
-    //Vari�veis
+    //Variaveis
     int i, idade[10], media=0, soma=0, maior=0, menor=0;
     int idoso=0, auxiliar=1000, auxiliar2=0;
 
     setlocale(LC_ALL, "Portuguese");
 
-    //In�cio
-    printf("**Digite a idade de 10 pessoas para classific�-las.**\n");
+    //Inicio
+    printf("**Digite a idade de 10 pessoas para classifica-las.**\n");
     printf("*****************************************************");
 
     for (i=1;i<=10;i++)
     { //Dados de entrada
-        printf("\n Digite a idade da %d� pessoa:",i);
+        printf("\n Digite a idade da %d° pessoa:",i);
         scanf("%d",&idade[i]);
 
          if (idade[i] >=18) {
@@ -78,12 +78,12 @@ int main()
 
     //Sa�da
     printf("\n ***************************************");
-    printf("\n A m�dia de todas as idades �: %d",media);
-    printf("\n %d pessoas s�o menores de idade",menor);
-    printf("\n %d pessoas s�o maiores de idade",maior);
-    printf("\n %d pessoas s�o idosas", idoso);
+    printf("\n A média de todas as idades é: %d",media);
+    printf("\n %d pessoas são menores de idade",menor);
+    printf("\n %d pessoas são maiores de idade",maior);
+    printf("\n %d pessoas são idosas", idoso);
     printf("\n A idade do idoso mais novo �: %d",auxiliar);
-    printf("\n A idade da pessoa mais velha que n�o � idosa, �: %d", auxiliar2);
+    printf("\n A idade da pessoa mais velha que não é idosa, é: %d", auxiliar2);
 
 
     return 0;

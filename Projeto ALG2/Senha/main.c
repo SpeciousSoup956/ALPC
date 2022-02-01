@@ -1,5 +1,5 @@
 /*Sistema de login e senha
-FunÁ„o: Tentativas para o usu·rio acertar uma senha.
+Fun√ß√£o: Tentativas para o usu√°rio acertar uma senha.
 Autora: Mariane Bedia de Andrade
 Data: 23/09/2020*/
 
@@ -12,28 +12,28 @@ int main()
 {
     setlocale(LC_ALL,"Portuguese");
 
-    //Vari·veis
-    char nome[30]/*Armazenar nome do usu·rio*/, sobrenome[30];/*Armazenar sobrenome do usu·rio*/
-    char senha[30]/*Armazenar tentativa de senha do usu·rio*/,senha1[60]="sobrenome<espaco>nome";/*Senha correta*/
+    //Variaveis
+    char nome[30]/*Armazenar nome do usu√°rio*/, sobrenome[30];/*Armazenar sobrenome do usu√°rio*/
+    char senha[30]/*Armazenar tentativa de senha do usu√°rio*/,senha1[60]="sobrenome<espaco>nome";/*Senha correta*/
     int i=0;
 
     //Dados de entrada:
 
     printf("\t ***** SISTEMA DE LOGIN E SENHA *****");
     printf("\n \t Digite seu nome: ");
-    scanf("%s",nome); //String se lÍ com %s
+    scanf("%s",nome); //String se le com %s
     printf("\n \t Digite seu sobrenome:");
     scanf("%s",sobrenome);
 
-    do //inicio do loop faÁa, para que o usu·rio possa tentar acertar a senha 5 vezes
+    do //inicio do loop fa√ßa, para que o usu√°rio possa tentar acertar a senha 5 vezes
     {
     printf("\n \t Digite a senha: ");
     scanf("%s",senha);
 
-    if (strcmp(senha, senha1) == 0) //Se for igual a 0 È porque as duas s„o iguais.
+    if (strcmp(senha, senha1) == 0) //Se for igual a 0 √© porque as duas s√£o iguais.
     {
     	printf("\n \t SENHA CORRETA");
-    	printf("\n \t Acertou a senha na %d∞ tentativa.",i+1);
+    	printf("\n \t Acertou a senha na %d¬∞ tentativa.",i+1);
     	break;
     }
     else
@@ -44,7 +44,7 @@ int main()
 
         if(i==5)
        {
-        printf("\n \t N˙mero m·ximo de tentativas excedido!");
+        printf("\n \t Numero maximo de tentativas excedido!");
        }
 
     } while (i<5);
