@@ -2,7 +2,7 @@
 
 🔎<b> ALPC => <i>Algoritmos e Lógica de programação.</i></b> 
 
-O nome vem da disciplina introdutória de lógica que eu tive no 1° semestre.
+O nome é uma referência a disciplina introdutória de lógica de programação que eu tive no 1° semestre da faculdade.
 ##
 
 🎯<b>Objetivo:</b> O Repositório foi criado para arquivar atividades e exercícios propostos durante o meu aprendizado em programação.
