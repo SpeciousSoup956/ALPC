@@ -2,7 +2,7 @@
 REVISÃO DE PROGRAMAÇÃO - LINGUAGEM C
 disciplina: ESTRUTURA DE DADOS (ESTC3)
 assunto: parâmetros por valor 
-***************************************/
+****************************************/
 #include <stdio.h>
 #include <stdlib.h>
 
