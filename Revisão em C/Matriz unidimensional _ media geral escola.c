@@ -14,14 +14,14 @@ Enunciado.: Elaborar um programa que calcule e apresente o valor da média geral
 int main(void)
 {
     //variaveis
-    float md [8];
+    float md[8];
     float media, soma = 0;
     int i = 0;
-    
+   
     printf("\n********************************\n");
     printf("CÁLCULO DE MÉDIA GERAL ESCOLAR");
     printf("\n********************************\n");
-  
+    
     // desenvolvimento
     for (i = 0; i>=7; i++)
      {
@@ -29,11 +29,10 @@ int main(void)
          scanf("%f", &md[i]);
          soma += md[i];
      }
-     media = soma/8;
-     
-    //saida
+    media = soma/8;  
     
-    printf("\nA média do grupo equivale a: %6.2f\n\n", media);
+    //saida
+   printf("\nA média do grupo equivale a: %6.2f\n\n", media);
 
     return 0;
 }
