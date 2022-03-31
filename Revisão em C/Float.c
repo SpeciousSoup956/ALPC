@@ -1,7 +1,6 @@
-/*
-REVISÃO DE PROGRAMAÇÃO - LINGUAGEM C
-DISCIPLINA: ESTRUTURA DE DADOS (ESTC3)
-*/
+/* REVISÃO DE PROGRAMAÇÃO - LINGUAGEM C
+DISCIPLINA: ESTRUTURA DE DADOS (ESTC3) */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
