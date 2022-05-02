@@ -4,18 +4,21 @@
 int main() {
     
     // Declaração de variaveis
-    int mid[5][5];
-    int l=0, c=0;
+    int mid[5][5][2];
+    int l=0, c=0, m=0;
     
     //Estrutura para preencher a matriz
     for (l=0; l<5; l++)
     {
         for (c=0; c<5; c++)
         {
-            if (l==c)
-             mid[l][c]=1;
-            else
-            mid[l][c]=0;
+            for (m=0; m<2; m++)
+            {
+                if (l==c)
+                 mid[l][c][m]=1;
+                else
+                mid[l][c][m]=0;
+            }
         }
     }
     
@@ -28,12 +31,15 @@ int main() {
     {
         for (c=0;c<5;c++)
         {
+          for (m=0; m<2; m++)
+            {
+                printf("%d  ", mid[l][c][m]);
+            }
           
-            printf("%d  ", mid[l][c]);
         }
         printf("\n");
     }
-    printf("\n----------------------------------------");
+   // printf("\n----------------------------------------");
     
     return 0;
 }
