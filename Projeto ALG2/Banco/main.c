@@ -103,11 +103,6 @@ int main()
                 }
 
 
-
-
-
-
-
             break;
         case 2:// acessar minha conta
             break;
@@ -121,8 +116,6 @@ int main()
      }
 
     while(encerra == 0);
-
-
 
 
 
